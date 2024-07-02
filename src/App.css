@@ -1,42 +1,17 @@
 
-.landing-page {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100vh;
-  padding: 0 20px;
-  background-image: url('/background.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 0 14rem;
-}
 
 
-.landing-div {
-  background-color: rgba(255, 255, 255, 0.8);
+
+/* Product list and Card */
+
+
+/* END of Product list and card */
+
+
+.product-listing {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  align-items: center;
-  text-align: center;
 }
-
-.landing-div p {
-  font-size: 18px;
-  line-height: 1.6;
-}
-
-.landing-div h1 {
-  margin-bottom: 20px;
-}
-
-.landing-div button {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
-
