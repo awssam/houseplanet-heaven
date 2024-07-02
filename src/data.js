@@ -59,7 +59,7 @@ const products = [
     id: 8,
     name: 'Echeveria',
     price: 16,
-    thumbnail: '/images/Echeveria.jpg',
+    thumbnail: '/images/Echeveria.jpeg',
     category: 'Succulents',
     description: 'A popular rosette-shaped succulent that comes in a variety of colors.'
   },
@@ -75,7 +75,7 @@ const products = [
     id: 10,
     name: 'Rosemary',
     price: 15,
-    thumbnail: '/images/Rosemary.jpg',
+    thumbnail: '/images/Rosemary.jpeg',
     category: 'Herbs',
     description: 'A versatile herb with aromatic leaves, perfect for cooking and decorative purposes.'
   },
@@ -83,7 +83,7 @@ const products = [
     id: 11,
     name: 'Basil',
     price: 10,
-    thumbnail: '/images/Basil.jpg',
+    thumbnail: '/images/Basil.jpeg',
     category: 'Herbs',
     description: 'A popular culinary herb with fragrant leaves that is easy to grow indoors or outdoors.'
   },
@@ -91,7 +91,7 @@ const products = [
     id: 12,
     name: 'Mint',
     price: 8,
-    thumbnail: '/images/Mint.jpg',
+    thumbnail: '/images/Mint.jpeg',
     category: 'Herbs',
     description: 'A fast-growing herb with refreshing leaves, perfect for teas and culinary uses.'
   }

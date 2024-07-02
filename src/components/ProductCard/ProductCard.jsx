@@ -18,6 +18,7 @@ const ProductCard = ({ product }) => {
       <img src={product.thumbnail} alt={product.name} />
       <h2>{product.name}</h2>
       <p>${product.price}</p>
+      <p>{product.description}</p>
       <button onClick={handleAddToCart} disabled={isInCart}>
         {isInCart ? 'In Cart' : 'Add to Cart'}
       </button>
