@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import LandingPage from './pages/LandingPage'
-import ProductListing from './pages/ProductListing'
+import LandingPage from './pages/LandingPage/LandingPage'
+import ProductListing from './pages/ProductListing/ProductListing'
 import './App.css'
 import Header from './components/Header/Header'
 import ShoppingCart from './pages/ShoppingCart/ShoppingCart'
