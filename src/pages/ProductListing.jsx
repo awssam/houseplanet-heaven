@@ -5,7 +5,7 @@ import products from '../data.js';
 const ProductListing = ({ navigate }) => {
   return (
     <>
-    <div>
+  <div className="container">
       <div className="product-listing">
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />

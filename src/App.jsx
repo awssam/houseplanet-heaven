@@ -13,9 +13,11 @@ function App() {
   return (
     <>
       {page != 'LandingPage' && <Header navigate={setPage} />}
+    <div className="">
       {page === 'ProductListing' && <ProductListing navigate={setPage} />}
       {page === 'LandingPage' && <LandingPage navigate={setPage} />}
       {page === 'ShoppingCartPage' && <ShoppingCart navigate={setPage} />}
+      </div>
     </>
   )
 }

@@ -41,11 +41,12 @@ const ShoppingCart = ({ navigate }) => {
     const removeFromCart = (id) => {
     setCartItem(cartItems.filter((item) => item.id !== id));
     }
-    
+
   
 
   return (
-    <div className="shopping-cart">
+    
+    <div className="container shopping-cart">
       <button className="back-button" onClick={() => navigate('ProductListing')}>Continue Shopping</button>
       <h1>Shopping Cart</h1>
       <div className="cart-summary">
