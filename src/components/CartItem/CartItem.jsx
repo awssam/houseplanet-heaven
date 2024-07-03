@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import './CartItem.css';
-import { decrementItem, incrementItem, removeFromCart } from '../../redux/cartSlice';
+import { decrementItem, incrementItem, removeItem } from '../../CartSlice';
 
 const CartItem = ({id,thumbnail,name,price,quantity}) => {
   const dispatch = useDispatch();
@@ -19,7 +19,7 @@ const CartItem = ({id,thumbnail,name,price,quantity}) => {
                 <button onClick={() => dispatch(decrementItem(id))}>-</button>
               <span>{quantity}</span>
               <button onClick={() => dispatch(incrementItem(id))}>+</button>
-              <button onClick={() => dispatch(removeFromCart(id))} className="delete-button">Delete</button>
+              <button onClick={() => dispatch(removeItem(id))} className="delete-button">Delete</button>
             </div>
           </div>
       </div>

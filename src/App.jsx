@@ -5,7 +5,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import ShoppingCart from "./pages/ShoppingCart/ShoppingCart";
 import { Provider } from "react-redux";
-import store from "./redux/store.jsx";
+import store from "./store.js";
 
 function App() {
   const [page, setPage] = useState("LandingPage");

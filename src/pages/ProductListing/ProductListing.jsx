@@ -20,13 +20,7 @@ const ProductListing = () => {
           <div key={category}>
             <h2>{category}</h2>
             <div
-              style={{
-                width: "100%",
-                display: "grid",
-                gridTemplateColumns: "repeat(4, 1fr)",
-                gap: "20px",
-                padding: "20px",
-              }}
+              className="product-listing"
             >
               {groupedProducts[category].map((product) => (
                 <ProductCard key={product.id} product={product} />
